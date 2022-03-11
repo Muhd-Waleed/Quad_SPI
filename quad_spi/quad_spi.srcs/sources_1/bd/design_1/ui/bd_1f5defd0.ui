@@ -1,0 +1,29 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port s_axi_aclk_0 -pg 1 -y -110 -defaultsOSRD
+preplace port s_axi4_aclk_0 -pg 1 -y -50 -defaultsOSRD
+preplace port ip2intc_irpt_0 -pg 1 -y -100 -defaultsOSRD
+preplace port s_axi_aresetn_0 -pg 1 -y -80 -defaultsOSRD
+preplace port s_axi4_aresetn_0 -pg 1 -y -20 -defaultsOSRD
+preplace port ext_spi_clk_0 -pg 1 -y -140 -defaultsOSRD
+preplace port SPI_0_0 -pg 1 -y -170 -defaultsOSRD
+preplace port AXI_LITE_0 -pg 1 -y -200 -defaultsOSRD
+preplace port AXI_FULL_0 -pg 1 -y -170 -defaultsOSRD
+preplace port STARTUP_IO_0 -pg 1 -y -140 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 1 -y -140 -defaultsOSRD
+preplace netloc axi_quad_spi_0_SPI_0 1 1 1 280J
+preplace netloc AXI_FULL_0_1 1 0 1 -20J
+preplace netloc s_axi_aclk_0_1 1 0 1 -10J
+preplace netloc axi_quad_spi_0_STARTUP_IO 1 1 1 NJ
+preplace netloc s_axi_aresetn_0_1 1 0 1 0J
+preplace netloc s_axi4_aresetn_0_1 1 0 1 20J
+preplace netloc s_axi4_aclk_0_1 1 0 1 10J
+preplace netloc AXI_LITE_0_1 1 0 1 NJ
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 1 1 280J
+preplace netloc ext_spi_clk_0_1 1 0 1 -20J
+levelinfo -pg 1 -40 150 300 -top -280 -bot 180
+",
+}
+
